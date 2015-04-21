@@ -3,7 +3,10 @@ studentRoster.factory('StudentsFactory', function StudentsFactory() {
     factory.students = [];
 
     factory.addStudent = function (name) {
-        this.students.push( { name: name } );
+        this.students.push( { name: name,
+                              permissionSlip: false
+                            }
+                          );
     };
 
     factory.deleteStudent = function(student) {
