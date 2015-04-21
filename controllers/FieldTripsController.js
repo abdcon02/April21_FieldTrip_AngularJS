@@ -1,3 +1,4 @@
 studentRoster.controller('FieldTripsCtrl', function FieldTripsCtrl($scope) {
-    $scope.studentsWithPermission = [{ name: "Jane Doe" }, { name: "John Doe"}];
+    // $scope.students = $scope.StudentFactory.students;
+    // console.log($scope.students);
 });
