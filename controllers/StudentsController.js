@@ -9,8 +9,8 @@ studentRoster.controller('StudentsCtrl', function StudentsCtrl($scope, StudentsF
     };
 
     $scope.deleteStudent = function(student) {
-        var index = $scope.students.indexOf(student);
-        $scope.students.splice(index, 1);
+        StudentsFactory.deleteStudent(student);
+
     };
 
 });
