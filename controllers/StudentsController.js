@@ -8,4 +8,5 @@ studentRoster.controller('StudentsCtrl', function StudentsCtrl($scope) {
         var index = $scope.students.indexOf(student);
         $scope.students.splice(index, 1);
     };
+
 });
